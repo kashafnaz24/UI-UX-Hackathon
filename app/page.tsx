@@ -181,6 +181,89 @@ export default function Home() {
   </div>
 </div>
 
-  </div>
+  <div className="w-[90%] mx-auto">
+  <h2 className="text-[34px] mb-6 mt-4">Top categories</h2>
+  <div className="grid  gap-2 grid-cols-3 mb-6">
+    
+    {/* Product 1 */}
+    <div className="relative w-[300px] h-[377px]">
+      <Image
+        src="/wind-chair.png.png"
+        alt="Top categories "
+        width={300}
+        height={312}
+        className="rounded-[6px]"
+        priority
+      />
+      <button className="absolute top-2 left-2 bg-[#01AD5A] text-white px-2 py-1 text-xs rounded">
+        New
+      </button>
+      <div className="flex justify-between bg-[#000000B2] items-center mt-4 px-2">
+        <div>
+          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          Wing Chair
+          </h6>
+          <p className="text-gray-600 font-medium">3,584 Products</p>
+        </div>
+        <button className="w-[50px] h-[50px] rounded-[5px] bg-[#F0F2F3] text-black hover:bg-[#029FAE] flex items-center justify-center">
+        <FontAwesomeIcon icon={faCartShopping} className='w-[22px] h-[22px]'/> 
+        </button>
+      </div>
+    </div>
+
+    {/* Product 2 */}
+    <div className="relative w-[300px] h-[377px]">
+      <Image
+        src="/topimg-2.png"
+        alt="Top categories"
+        width={300}
+        height={312}
+        className="rounded-[6px]"
+        priority
+      />
+      <button className="absolute top-2 left-2 bg-[#01AD5A] text-white px-2 py-1 text-xs rounded">
+        New
+      </button>
+      <div className="flex justify-between bg-[#000000B2] items-center mt-4 px-2">
+        <div>
+          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          Wooden Chair
+          </h6>
+          <p className="text-gray-600 font-medium">157 Products</p>
+        </div>
+        <button className="w-[50px] h-[50px] rounded-[5px] bg-[#F0F2F3] text-black hover:bg-[#029FAE] flex items-center justify-center">
+        <FontAwesomeIcon icon={faCartShopping} className='w-[22px] h-[22px]'/> 
+        </button>
+      </div>
+    </div>
+
+    {/* Product 3 */}
+    <div className="relative w-[300px] h-[377px]">
+      <Image
+        src="/top3.png"
+        alt="Top categories"
+        width={300}
+        height={312}
+        className="rounded-[6px]"
+        priority
+      />
+      <button className="absolute top-2 left-2 bg-[#01AD5A] text-white px-2 py-1 text-xs rounded">
+        New
+      </button>
+      <div className="flex justify-between bg-[#000000B2] items-center mt-4 px-2">
+        <div>
+          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          Desk Chair
+          </h6>
+          <p className="text-gray-600 font-medium">154 Products</p>
+        </div>
+        <button className="w-[50px] h-[50px] rounded-[5px] bg-[#F0F2F3] text-black hover:bg-[#029FAE] flex items-center justify-center">
+        <FontAwesomeIcon icon={faCartShopping} className='w-[22px] h-[22px]'/> 
+        </button>
+      </div>
+    </div>
+</div>
+</div>
+</div>
   );
 }
